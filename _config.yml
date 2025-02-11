@@ -1,0 +1,22 @@
+title: James Phillips
+email: james@jamesphillips.me.uk
+description: >- # this means to ignore newlines until "baseurl:"
+  Lighting Design, Operation and Production for Live, TV and Corporate.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+plugins:
+  - jekyll-feed
+  - jekyll-node-module
+
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/

@@ -1,0 +1,124 @@
+---
+layout: default
+---
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark" id="navbar">
+    <div class="container">
+      <a class="navbar-brand hidden" href="#">James Phillips</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#About">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#PreviousWork">Previous Work</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+<div class="header">
+    <div class="header-text">
+        <h1>James Phillips</h1>
+        <h2>Lighting & Production</h2>
+    </div>
+</div>
+<div class="container pt-1" data-bs-spy="scroll" data-bs-target="#navbar" data-bs-root-margin="0px">
+    <div class="row pt-5" id="About">
+        <div class="row">
+            <div class="col-md-3">
+                <img src="assets/images/james.jpg" class="rounded-circle mx-auto text-center" alt="img"
+                    style="height: 20vh;">
+            </div>
+            <div class="col-md-9 align-self-center" style="font-size: 1.5rem">
+                <p>
+                    Providing Technical Services with extensive experience across a wide range of events.
+                    Specialising in Lighting Console Operation, Design and Production Management.
+                    Employing a professional and pragmatic approach to technical challenges with exceptional attention
+                    to
+                    detail.
+                </p>
+            </div>
+        </div>
+        <div class="row pt-5">
+            <div class="col-md-3">
+                <h2 class="text-center">Design</h2>
+                <p class="text-center">Plans, Plots and Paperwork</p>
+            </div>
+            <div class="col-md-3">
+                <h2 class="text-center">Programming</h2>
+                <p class="text-center">Lorem Ipsum dollar sit amet</p>
+            </div>
+            <div class="col-md-3">
+                <h2 class="text-center">Pre-Visualisation</h2>
+                <p class="text-center">Lorem Ipsum dollar sit amet</p>
+            </div>
+            <div class="col-md-3">
+                <h2 class="text-center">Production Management</h2>
+                <p class="text-center">Lorem Ipsum dollar sit amet</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="row pt-5" id="PreviousWork">
+        {% for entry in site.data.previouswork %}
+        <div class="col-lg-4 p-2">
+            <div class="portfolio-entry">
+                <img src="{{entry.thumb}}" class="img-fluid">
+                <div class="portfolio-overlay">
+                    <h1>
+                        {{entry.name}}
+                    </h1>
+                    <h2>
+                        {{entry.role}}
+                    </h2>
+                    <h3>
+                        {{entry.client}}
+                    </h3>
+                    <a href="#" class="btn btn-outline-light">More Info</a>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    <div class="row pt-5 justify-content-md-center" id="Contact">
+        <div class="col-md-4 text-center">
+            <h1><i class="bi bi-telephone-fill"></i></h1>
+            <p><a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover link-light"
+                    href="tel:+4407429353608">+44 07429 353 608</a></p>
+        </div>
+        <div class="col-md-4 text-center">
+            <h1><i class="bi bi-envelope-fill"></i></h1>
+            <p><a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover link-light"
+                    href="mailto:james@jamesphillips.me.uk">james@jamesphillips.me.uk</a></p>
+        </div>
+    </div>
+</div>
+
+<script>
+    /**
+     * Listen to scroll to change header opacity class
+     */
+    function checkScroll() {
+        var navbarThreshold = $('.navbar').height() * 2; //The point where the navbar changes in px
+
+        if ($(window).scrollTop() > navbarThreshold) {
+            $('.navbar').addClass("bg-dark");
+
+        } else {
+            $('.navbar').removeClass("bg-dark");
+        }
+    }
+
+    if ($('.navbar').length > 0) {
+        $(window).on("scroll load resize", function () {
+            checkScroll();
+        });
+    }
+</script>
