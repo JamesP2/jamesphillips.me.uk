@@ -3,39 +3,54 @@
   client: Light Initiative
   date: January 2025
   thumb: assets/images/previouswork/joyawards25.jpg
+  photo_credit: Stufish
 
 - name: Carlisle Light District
   role: Lighting, Power & Audio
   client: Cumberland Council
   date: 2022, 2023, 2024
-  thumb: assets/images/previouswork/joyawards25.jpg
+  thumb: assets/images/previouswork/carlislelightdistrict.jpg
+  photo_credit: Pictama
 
 - name: Adele in Munich
   role: LED Trim Crew Chief
   client: Light Initiative
   date: August 2024
-  thumb: assets/images/previouswork/joyawards25.jpg
+  thumb: assets/images/previouswork/adele.jpg
+  photo_credit: Stufish
 
 - name: Doncaster Christmas LIVE!
   role: Lighting Design & Production
   client: Explosive Productions Ltd.
   date: 2017 - 2024
-  thumb: assets/images/previouswork/joyawards25.jpg
+  thumb: assets/images/previouswork/christmaslive.jpg
 
-- name: Shiiine on Weekender 2024
+- name: Shiiine on Weekender
   role: Lighting Crew Chief & Operator
   client: Prism Lighting
   date: November 2024
-  thumb: assets/images/previouswork/joyawards25.jpg
+  thumb: assets/images/previouswork/shiiineon.jpg
+  photo_credit: Big Ed Photography, Moments to Media & Steve Muscatt
 
 - name: Truck Festival
   role: Technical Production Manager
   client: METHOD Events
   date: 2022, 2023
-  thumb: assets/images/previouswork/joyawards25.jpg
+  thumb: assets/images/previouswork/truckfestival.jpg
+  photo_credit: Truck Festival, METHOD
 
 - name: "BAE: HMS Agamemnon"
-  role: Lighting Design, Crew Chief, Operator
+  role: Lighting Crew Chief & Operator
   client: Prism Lighting
   date: April 2024
-  thumb: assets/images/previouswork/joyawards25.jpg
+  thumb: assets/images/previouswork/agamemnon.jpg
+  photo_credit: BAE Systems
+
+- name: Higher Tour
+  role: Lighting Design & Operator
+  client: MTS Live
+  date: Various Events 2018 - 2020
+  thumb: assets/images/previouswork/higher.jpg
+  photo_credit: The Message Trust
+  license: CC BY-NC-ND 2.0
+  license_url: https://creativecommons.org/licenses/by-nc-nd/2.0/
