@@ -5,6 +5,13 @@
   thumb: assets/images/previouswork/joyawards25.jpg
   photo_credit: Stufish
 
+- name: Truck Festival
+  role: Technical Production Manager
+  client: METHOD Events
+  date: 2022, 2023
+  thumb: assets/images/previouswork/truckfestival.jpg
+  photo_credit: Truck Festival, METHOD
+
 - name: Carlisle Light District
   role: Lighting, Power & Audio
   client: Cumberland Council
@@ -20,7 +27,7 @@
   photo_credit: Stufish
 
 - name: Doncaster Christmas LIVE!
-  role: Lighting Design & Production
+  role: Design, Lighting & Rigging
   client: Explosive Productions Ltd.
   date: 2017 - 2024
   thumb: assets/images/previouswork/christmaslive.jpg
@@ -31,13 +38,6 @@
   date: November 2024
   thumb: assets/images/previouswork/shiiineon.jpg
   photo_credit: Big Ed Photography, Moments to Media & Steve Muscatt
-
-- name: Truck Festival
-  role: Technical Production Manager
-  client: METHOD Events
-  date: 2022, 2023
-  thumb: assets/images/previouswork/truckfestival.jpg
-  photo_credit: Truck Festival, METHOD
 
 - name: "BAE: HMS Agamemnon"
   role: Lighting Crew Chief & Operator
