@@ -79,3 +79,8 @@ h1, h2, h3, h4 {
   font-weight: 100;
   font-size: 1.2rem;
 }
+
+footer {
+  background-image: url("/assets/images/footer.png");
+  padding-bottom: 0px;
+}

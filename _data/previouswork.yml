@@ -19,6 +19,13 @@
   thumb: assets/images/previouswork/carlislelightdistrict.jpg
   photo_credit: Pictama
 
+- name: Shiiine on Weekender
+  role: Lighting Crew Chief & Operator
+  client: Prism Lighting
+  date: November 2024
+  thumb: assets/images/previouswork/shiiineon.jpg
+  photo_credit: Big Ed Photography, Moments to Media & Steve Muscatt
+
 - name: Adele in Munich
   role: LED Trim Crew Chief
   client: Light Initiative
@@ -31,13 +38,6 @@
   client: Explosive Productions Ltd.
   date: 2017 - 2024
   thumb: assets/images/previouswork/christmaslive.jpg
-
-- name: Shiiine on Weekender
-  role: Lighting Crew Chief & Operator
-  client: Prism Lighting
-  date: November 2024
-  thumb: assets/images/previouswork/shiiineon.jpg
-  photo_credit: Big Ed Photography, Moments to Media & Steve Muscatt
 
 - name: "BAE: HMS Agamemnon"
   role: Lighting Crew Chief & Operator
@@ -54,3 +54,10 @@
   photo_credit: The Message Trust
   license: CC BY-NC-ND 2.0
   license_url: https://creativecommons.org/licenses/by-nc-nd/2.0/
+
+- name: Corporate Events
+  role: Lighting Design & Operation
+  client: Various Clients
+  date: Various
+  thumb: assets/images/previouswork/uha.jpg
+  photo_credit: Michael Bell
