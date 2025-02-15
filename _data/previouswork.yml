@@ -10,7 +10,7 @@
   client: METHOD Events
   date: 2022, 2023
   thumb: assets/images/previouswork/truckfestival.jpg
-  photo_credit: Truck Festival, METHOD
+  photo_credit: Caitlin Mogridge, Truck Festival, METHOD
 
 - name: Carlisle Light District
   role: Lighting, Power & Audio
@@ -61,3 +61,9 @@
   date: Various
   thumb: assets/images/previouswork/uha.jpg
   photo_credit: Michael Bell
+
+- name: Fringe Theatre
+  role: Venue Operations
+  client: Paradise Green
+  date: 2016 - 2025
+  thumb: assets/images/previouswork/paradise.jpg
