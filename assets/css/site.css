@@ -1,12 +1,12 @@
 body {
-  font-family: "Open Sans", sans-serif;
-  background-image: url("/assets/images/header.png");
+  font-family: "Roboto", serif;
+  background-image: url("../images/header.png");
   background-repeat: no-repeat;
   background-position: top center;
 }
 
 h1, h2, h3, h4 {
-  font-family: Merriweather, serif;
+  font-family: "Overpass", serif;
 }
 
 .navbar {
@@ -84,6 +84,6 @@ h1, h2, h3, h4 {
 }
 
 footer {
-  background-image: url("/assets/images/footer.png");
+  background-image: url("../images/footer.png");
   padding-bottom: 0px;
 }
