@@ -1,6 +1,9 @@
 ---
 layout: default
-title: James Phillips
+title: James Phillips - Lighting & Production
+description: >
+  Providing technical services across the spectrum of Live Events, TV and Corporate. Specialising in Lighting
+  & Production Management with a pragmatic and professional approach.
 ---
 
 <div class="container-fluid pt-1" style="min-height: 90vh">
@@ -14,38 +17,33 @@ title: James Phillips
       </div>
       <div class="row align-items-center">
         <div class="col-lg-12 pt-3">
-          <img
-            src="assets/images/james.jpg"
-            class="mx-auto d-block rounded-circle"
-            alt="img"
-            style="
+          <img src="assets/images/james.jpg" class="mx-auto d-block rounded-circle" alt="img" style="
               max-height: 35vh;
               max-width: 350px;
               width: auto;
               height: auto;
-            "
-          />
+            " />
         </div>
       </div>
       <div class="row pt-5 justify-content-md-center">
         <div class="col-md-4 text-center">
-          <h1><i class="bi bi-telephone-fill"></i></h1>
+          <p class="h1"><i class="bi bi-telephone-fill"></i></p>
           <p>
-            <a
-              class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover link-light"
-              href="tel:+4407429353608"
-              >+44 07429 353 608</a
-            >
+            <a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover link-light"
+              href="tel:+4407429353608">+44 07429 353 608</a>
           </p>
         </div>
         <div class="col-md-4 text-center">
-          <h1><i class="bi bi-envelope-fill"></i></h1>
+          <p class="h1"><i class="bi bi-geo-alt-fill"></i></p>
           <p>
-            <a
-              class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover link-light"
-              href="mailto:james@jamesphillips.me.uk"
-              >james@jamesphillips.me.uk</a
-            >
+            Manchester, UK
+          </p>
+        </div>
+        <div class="col-md-4 text-center">
+          <p class="h1"><i class="bi bi-envelope-fill"></i></p>
+          <p>
+            <a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover link-light"
+              href="mailto:james@jamesphillips.me.uk">james@jamesphillips.me.uk</a>
           </p>
         </div>
       </div>
@@ -74,25 +72,26 @@ title: James Phillips
       </div>
       <div class="row pt-3">
         <div class="col-lg-12 align-self-center">
-          <h2 class="text-center">Design & Pre-Visualisation</h2>
+          <p class="h2 text-center">Design & Pre-Visualisation</p>
           <p class="text-center">
             Technical Drawings and 3D renderings for your next event.
           </p>
         </div>
         <div class="col-lg-12 pt-3 align-self-center">
-          <h2 class="text-center">Programming & Operation</h2>
+          <p class="h2 text-center">Programming & Operation</p>
           <p class="text-center">
             Across a wealth of events, from Rock and Roll to Submarine Naming Ceremonies.
           </p>
         </div>
         <div class="col-lg-12 pt-3 align-self-center">
-          <h2 class="text-center">Systems & Crew Chief</h2>
+          <p class="h2 text-center">Systems & Crew Chief</p>
           <p class="text-center">
-            Planning and management of anything from a concert dimmer world up to 2,000 universe sACN driven pixel LED systems.
+            Planning and management of anything from a concert dimmer world up to 2,000 universe sACN driven pixel LED
+            systems.
           </p>
         </div>
         <div class="col-lg-12 pt-3 align-self-center">
-          <h2 class="text-center">Production Management</h2>
+          <p class="h2 text-center">Production Management</p>
           <p class="text-center">
             A solution-oriented approach combining my knowledge of a range of
             technical disciplines to ensure a smooth show.
@@ -104,7 +103,7 @@ title: James Phillips
     <div class="col-lg-7">
       <div class="row">
         <div class="col-lg-12 pt-3 align-self-center d-lg-none">
-          <h2 class="text-center">Previous Work</h2>
+          <p class="h2 text-center">Previous Work</p>
         </div>
         {% for entry in site.data.previouswork %}
         <div class="col-lg-6 p-2">
@@ -112,11 +111,11 @@ title: James Phillips
             <img src="{{entry.thumb}}" class="img-fluid" />
             <div class="portfolio-overlay">
               <div class="portfolio-content">
-                <h1>{{entry.name}}</h1>
+                <p class="h1">{{entry.name}}</p>
                 <p class="m-1 fs-5 fw-normal">{{entry.role}}</p>
                 <p class="m-2">{{entry.client}}</p>
                 {% if entry.url != null %}
-                  <a href="{{entry.url}}" class="btn btn-outline-light">More Info</a>
+                <a href="{{entry.url}}" class="btn btn-outline-light">More Info</a>
                 {% endif %}
               </div>
             </div>
@@ -131,10 +130,7 @@ title: James Phillips
 <footer class="d-flex flex-wrap justify-content-between pt-3 border-top" style="min-height: 10vh">
   <p class="col-md-4 mx-3 text-body-secondary">© James Phillips</p>
 
-  <ul
-    class="list-unstyled col-md-4 px-2 justify-content-end"
-    style="font-size: 0.7em"
-  >
+  <ul class="list-unstyled col-md-4 px-2 justify-content-end" style="font-size: 0.7em">
     <li>Photo Credit</li>
     {% for entry in site.data.previouswork %} {% if entry.photo_credit %}
     <li>{{entry.name}}: {{entry.photo_credit}}</li>

@@ -9,6 +9,10 @@ h1, h2, h3, h4 {
   font-family: "Overpass", serif;
 }
 
+.h1, .h2, .h3, .h4{
+  font-family: "Overpass", serif;
+}
+
 .navbar {
   -webkit-transition: all 0.6s ease-out;
   -moz-transition: all 0.6s ease-out;
@@ -68,19 +72,9 @@ h1, h2, h3, h4 {
   -o-transform: translateY(-50%);
 }
 
-.portfolio-overlay h1 {
+.portfolio-overlay .h1 {
   font-weight: 400;
   font-size: 2rem;
-}
-
-.portfolio-overlay h2 {
-  font-weight: 100;
-  font-size: 1.5rem;
-}
-
-.portfolio-overlay h3 {
-  font-weight: 100;
-  font-size: 1.2rem;
 }
 
 footer {
