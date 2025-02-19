@@ -3,7 +3,7 @@ layout: default
 title: James Phillips
 ---
 
-<div class="container-fluid pt-1">
+<div class="container-fluid pt-1" style="min-height: 90vh">
   <div class="row">
     <div class="col-lg-5">
       <div class="row align-items-center">
@@ -115,7 +115,9 @@ title: James Phillips
                 <h1>{{entry.name}}</h1>
                 <p class="m-1 fs-5 fw-normal">{{entry.role}}</p>
                 <p class="m-2">{{entry.client}}</p>
-                <!--<a href="#" class="btn btn-outline-light">More Info</a>-->
+                {% if entry.url != null %}
+                  <a href="{{entry.url}}" class="btn btn-outline-light">More Info</a>
+                {% endif %}
               </div>
             </div>
           </div>
@@ -126,7 +128,7 @@ title: James Phillips
   </div>
 </div>
 
-<footer class="d-flex flex-wrap justify-content-between pt-3 border-top">
+<footer class="d-flex flex-wrap justify-content-between pt-3 border-top" style="min-height: 10vh">
   <p class="col-md-4 mx-3 text-body-secondary">© James Phillips</p>
 
   <ul
